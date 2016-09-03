@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>10K BeyBattle</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="parallax lazy" data-src="http://bluelevel.in/parallax.jpg">
+      <div class="parallax lazy">
+        <div style="margin: auto auto; font-size: 50px; color: #333">
+        <h1>Beyblade Battle In 10Ks!</h1>
+      <h3>'Cuz We Never Grow Up!</h3></div>
+      <div style="display: inline!important; color: #333; font-size: 30px">
+      <div class="bounce">&or;</div>
+      <a href="#battleGround" id="darr" style="color: #333; text-decoration: none; font-size:20px; margin-top: 20px;">Let's Go!!</a>
+      <div class="bounce">&or;</div>
+    </div>
+    </div>
+      <div id="battleGround">
+        <div class="back"></div>
+        <h1>Beyblade Battle In 10Ks!</h1>
+        <h3>'Cuz We Never Grow Up!</h3>
+        <div class="ground">
+          <div class="bey" id="bey1"><img src="blank.gif" class="lazy" data-src="http://bluelevel.in/bey1.png" width="80" height="80"></div>
+          <div class="bey" id="bey2"><img src="blank.gif" class="lazy" data-src="http://bluelevel.in/bey2.png" width="80" height="80"></div>
+        </div>
+        <a id="button" class="btn" href="">Click To Launch!</a>
+
+    </div>
+      <footer style="margin-top:60px;">&copy; Swarnava Banerjee 2016; All Rights Reserved</footer>
+      <script>var bey1 = document.getElementById("bey1");
+      var bey2 = document.getElementById("bey2");
+      document.getElementById("button").addEventListener("click", function(e) {
+  bey1.className = "bey bey1";
+  bey2.className = "bey bey2";
+  	e.preventDefault();
+  });</script>
+      <script src="lazyload.js"></script>
+    </body>
+</html>
